@@ -1,4 +1,4 @@
-import KeyPressesPage from "../pageobjects/KeyPresses.pages.js";
+import KeyPressesPage from "../pageobjects/KeyPresses.page.js";
 
 describe ('My KeyPresses application', () => {
     it('should display what is entered into the input', async () => {

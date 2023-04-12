@@ -2,6 +2,10 @@ import Page from './page.js'
 
 class KeyPressesPage extends Page {
 
+    get keyPressInput() {
+        return $('#target');
+    }
+    
     get keyPressResult() {
         return $('#result')
     }
